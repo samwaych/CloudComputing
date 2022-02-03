@@ -1,0 +1,3 @@
+how-cloud-computing-works.png: https://www.fastmetrics.com/blog/wp-content/uploads/2014/10/how-cloud-computing-works.png
+what-is-iaas.png: https://azurecomcdn.azureedge.net/cvt-6ff1d669153e750acda676a0b3d4b3509534d50ce5efb21f5e42744c8969fe8b/images/page/overview/what-is-iaas/what-is-iaas.png
+https://www.pexels.com/

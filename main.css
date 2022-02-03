@@ -1,0 +1,205 @@
+html, body {
+  min-height: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #084D6A;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  display: relative;
+}
+
+.banner {
+  padding: 15px;
+  text-align: left;
+  margin-bottom: 0;
+  background-image: url("images/cloud_banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner a {
+  color: white;
+  width: 100%;
+  font-size: 5vw;
+  text-shadow: 3px 3px 5px black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkslategray;
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+nav li a, .active {
+  font-size: clamp(14px, 2vw, 24px);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #052B38;
+}
+
+nav a, .first a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.active {
+  background-color: DarkKhaki;
+}
+
+.negative-indent {
+    margin-left: 40px;
+    text-indent: -40px;
+}
+
+.first {
+  font-size: clamp(16px, 2.2vw, 26px);
+  padding: 0 5% 5% 5%;
+  background-color: white;
+  overflow: hidden;
+  margin: 0 0 -20px 0;
+}
+
+.first p a {
+  color: #084D6A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#no-indent span, .first-new, .first-new span {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 0px 30px;
+}
+
+.grid b {
+  font-size: clamp(18px, 2.3vw, 30px);
+  color: #084D6A;
+  text-decoration: underline;
+}
+
+#second, #second span  {
+  background-color: darkslategray;
+  overflow: hidden;
+  color: white;
+}
+
+#second p {
+  padding-left: 30%;
+}
+
+#third {
+  overflow: hidden;
+  background-image: url("images/Cloud-Computing-History.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#third p {
+  background-color: rgba(255,255,255,0.7);
+  padding: 5px 10px;
+  margin-top: 5%;
+}
+
+.inset {
+  margin-top: 75px;
+  background-color: #b16bbd;
+  padding: 10px;
+  box-shadow: 2px 2px 4px black;
+}
+
+#second .inset {
+  float: left;
+}
+
+#no-indent {
+  background-color: darkslategray;
+  color: white;
+}
+
+#no-indent b {
+  font-size: clamp(18px, 2.3vw, 30px);
+  text-decoration: underline;
+}
+
+#fourth .inset{
+  float: right;
+  background-color: #bd8e6b;
+}
+
+.inset:active {
+  box-shadow: none;
+}
+
+#fourth {
+  display: relative;
+  overflow: hidden;
+}
+
+#fourth p {
+  padding-right: 30%;
+}
+
+span {
+  font-family: monospace;
+  font-size: clamp(20px, 2.8vw, 32px);
+  color: #084D6A;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.right {
+  float: right;
+  overflow: hidden;
+  object-fit: scale-down;
+  margin-left: 10px;
+}
+
+.right img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.copyr {
+  font-weight: lighter;
+  margin: 25px;
+  text-align: center;
+  color: white;
+}
+
+.copyr::before {
+  content: "\00A9 2020 Sam Waychoff";
+}
